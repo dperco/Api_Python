@@ -1,0 +1,23 @@
+(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ pip freeze
+Click==7.0
+Flask==1.1.1
+itsdangerous==1.1.0
+colorama==0.4.5
+gunicorn==20.1.0
+Jinja2==2.10.3
+MarkupSafe==1.1.1
+Werkzeug==0.16.0
+(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ touch requirements.txt
+(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ pip freeze > requirements.txt
+(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ cat requirements.txt
+Click==7.0
+Flask==1.1.1
+itsdangerous==1.1.0
+Jinja2==2.10.3
+MarkupSafe==1.1.1
+Werkzeug==0.16.0
+(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ touch Procfile
+(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ ls
+Procfile          env/              static/
+app.py            requirements.txt  templates/
+(env) asabeneh@Asabeneh:~/Desktop/python_for_web$
